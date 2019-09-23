@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/today_thing"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="今日事"
+        android:textColor="#303030" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/wait_todo"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="待办"
+        android:textColor="#303030" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/topic"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="话题"
+        android:textColor="#303030" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/like"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="推荐"
+        android:textColor="#303030" />
+
+</LinearLayout>

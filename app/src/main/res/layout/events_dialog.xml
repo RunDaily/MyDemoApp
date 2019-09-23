@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="信息流" />
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="信息" />
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="工作动态" />
+
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="@string/at_you" />
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="私信" />
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="您收藏的" />
+
+    <TextView
+        style="@style/Event_Type_Style"
+        android:layout_width="match_parent"
+        android:text="您发布的" />
+
+</LinearLayout>

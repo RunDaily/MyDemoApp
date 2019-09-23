@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="#ffffff"
+    android:minHeight="160dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_portrait"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/potrait" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/iv_portrait"
+        android:layout_toRightOf="@id/iv_portrait"
+        android:text="Jenkins"
+        android:textColor="#303030" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/iv_portrait"
+        android:layout_toRightOf="@id/iv_portrait"
+        android:text="公开，20分钟前，Jenkins"
+        android:textColor="#a4a4a4"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_portrait"
+        android:layout_marginTop="6dp"
+        android:textColor="#303030"
+        android:textSize="14sp"
+        android:text="我藏不住秘密，也藏不住忧伤，
+
+正如我藏不住爱你的喜悦，
+
+藏不住分离时的彷徨。
+
+我就是这样坦然，
+
+你舍得伤，就伤。 " />
+
+</RelativeLayout>
